@@ -3,6 +3,9 @@ html{
     scroll-behavior: smooth;
     transition: .5s;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 body {
     background-attachment: fixed;
     background-image:  linear-gradient(to bottom right, rgb(20, 6, 70),rgb(47, 11, 88),rgb(14, 27, 82));
