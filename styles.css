@@ -43,7 +43,11 @@ body {
     animation: RGB 10s linear infinite;
 }
 .dev-icon{
-    width: 30px;
+    width: 35px;
+}
+.jhom-site{
+    font-family: Poppins;
+    font-size: 24px;
 }
 .nav-button{
     color: black;
@@ -172,12 +176,12 @@ body {
 .skill-icons:hover{
     width: 70%;
 }
-.projects-info{
+/*.projects-info{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
     border-radius: 20px;
-}
+}*/
 
 .projects{
 width: 90%;
