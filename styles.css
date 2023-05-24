@@ -146,16 +146,20 @@ body {
 .small-contact-icons{
     width: 30px;
     margin-top: 0;
+    border-radius: 3px;
     
 }
 .github-contact-icon{
     width: 40px;
 }
+.linkedin-btn{
+    width: 40px;
+}
 
 .small-contact:hover{
-    background-color: violet;
+    background-color: white;
     background-size: 200%x;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .personal-info{
     background-repeat: no-repeat;
@@ -203,13 +207,21 @@ body {
     max-height: 180px;
 }
 .projects{
-width: 100%;
-margin-bottom: 100px;
+    border: solid violet;
+    width: 100%;
+    margin-bottom: 200px;
+    transition: .5s;
 }
+.projects-frame:hover{
+    border: solid violet;
+    width: 105%;
+    height: 500px;
+    margin-bottom: 100px;
+    }
 .proj-label{
     font-family: Poppins;
     font-size: 40px;
-    color: white;
+    color: violet;
 }
 .proj-info{
     font-family: Poppins;
@@ -228,9 +240,9 @@ margin-bottom: 100px;
     transition: .2s;
 }
 .proj-btn:hover{
-    background-color: violet;
+    background-color: white;
     width: 15%;
-    border: solid black;
+    border: solid violet;
     border-radius: 40px;
 }
 .icons{
