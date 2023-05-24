@@ -194,9 +194,11 @@ body {
     background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
     border-radius: 20px;
 }*/
-
+.proj-box{
+    max-height: 180px;
+}
 .projects{
-width: 90%;
+width: 100%;
 margin-bottom: 100px;
 }
 .proj-label{
