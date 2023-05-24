@@ -121,6 +121,10 @@ body {
     width: 30%;
     opacity: 0;
 }
+.filler2{
+    width: 60%;
+    opacity: 0;
+}
 .job-txt{
     color: white;
     font-family: Poppins;
@@ -162,7 +166,7 @@ body {
 }
 .profile-picture{
     width: 80%;
-    border-radius: 60px;
+    border-radius: 30px;
 }
 .abt-me-msg {
     font-family: Poppins;
@@ -227,4 +231,13 @@ margin-bottom: 100px;
     background-attachment: fixed;
     background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
     border-radius: 50px;
+}
+.contact-page2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
+    border-radius: 20px;
 }
