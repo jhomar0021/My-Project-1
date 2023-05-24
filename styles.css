@@ -176,6 +176,7 @@ body {
     border-radius: 20px;
 }
 .abt-me-msg {
+    text-indent: 20px;
     font-family: Poppins;
     color: black;
     font-weight:600;
