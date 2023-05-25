@@ -31,21 +31,21 @@ body {
 }
 @keyframes rotate2 {
     0% {
-        transform: translateY(400px) translateX(-1000px) rotate(0deg);
+        transform: translateY(400px) translateX(-1000px) rotate(270deg);
         
     }
     25%{
-        transform: translateY(0px) translateX(-500px) rotate(90deg);
+        transform: translateY(0px) translateX(-500px) rotate(360deg);
     }
     50% {
-        transform: translateY(400px) translateX(0px) rotate(180deg);
+        transform: translateY(400px) translateX(0px) rotate(450deg);
     }
     75%{
-        transform: translatey(800px) translateX(-500px) rotate(270deg);
+        transform: translatey(800px) translateX(-500px) rotate(540deg);
         
     }
     100% {
-        transform: translateY(400px) translateX(-1000px) rotate(360deg);
+        transform: translateY(400px) translateX(-1000px) rotate(630deg);
     }
 }
 .navbar{
@@ -160,7 +160,7 @@ body {
     font-family: Poppins;
 }
 .name-txt{
-    color:violet;
+    color: #ff75ff ;
     font-family: Poppins;
 }
 .small-contact-icons{
@@ -243,7 +243,7 @@ body {
 .proj-label{
     font-family: Poppins;
     font-size: 40px;
-    color: violet;
+    color: #ff75ff;
 }
 .proj-info{
     font-family: Poppins;
