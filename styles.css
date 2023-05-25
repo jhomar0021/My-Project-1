@@ -171,10 +171,12 @@ body {
 .linkedin-btn{
     width: 40px;
 }
-
+.small-contact{
+    transition: .5s;
+}
 .small-contact:hover{
     background-color: white;
-    background-size: 200%x;
+    background-size: 200%;
     border-radius: 20px;
 }
 .personal-info{
