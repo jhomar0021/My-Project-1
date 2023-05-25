@@ -31,17 +31,19 @@ body {
 }
 @keyframes rotate2 {
     0% {
-        transform: translateX(150px);
-        transform: translatey(0);
+        transform: translateY(-100px) translateX(-500px) rotate(0deg);
+    }
+    25%{
+        transform: translateY(300px) translateX(0px) rotate(90deg);
     }
     50% {
-        transform: translateX(350px);
-        transform: translateY(500px);
+        transform: translatey(700px) translateX(-500px) rotate(180deg);
+    }
+    75%{
+        transform: translateY(300px) translateX(-1000px) rotate(270deg);
     }
     100% {
-        transform: translateX(150px);
-        transform: translatey(0px);
-
+        transform: translateY(-100px) translateX(-500px) rotate(360deg);
     }
 }
 .navbar{
@@ -135,7 +137,6 @@ body {
     left: 150%;
     z-index: -1;
     animation: rotate2 30s linear infinite;
-
 }
 .filler1{
     width: 30%;
