@@ -30,11 +30,18 @@ body {
     }
 }
 @keyframes rotate2 {
-    from {
-        transform: rotate(0deg);
+    0% {
+        transform: translateX(150px);
+        transform: translatey(0);
     }
-    to {
-        transform: rotate(360deg);
+    50% {
+        transform: translateX(350px);
+        transform: translateY(500px);
+    }
+    100% {
+        transform: translateX(150px);
+        transform: translatey(0px);
+
     }
 }
 .navbar{
@@ -120,6 +127,15 @@ body {
     z-index: -2;
     animation: rotate 30s linear infinite;
     transform-origin: top
+}
+.astronaut{
+    width: 30%;
+    position: relative;
+    top: 30%;
+    left: 150%;
+    z-index: -1;
+    animation: rotate2 30s linear infinite;
+
 }
 .filler1{
     width: 30%;
