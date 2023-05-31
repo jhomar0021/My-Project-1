@@ -141,6 +141,7 @@ body {
     animation: rotate2 50s linear infinite;
     
 }
+
 .filler1{
     width: 30%;
     opacity: 0;
@@ -149,7 +150,11 @@ body {
     width: 60%;
     opacity: 0;
 }
+    
+
 .job-txt{
+    
+    margin-top: 40vh;
     color: white;
     font-family: Poppins;
 }
@@ -183,7 +188,9 @@ body {
     background-size: 200%;
     border-radius: 20px;
 }
+
 .personal-info{
+    margin-top: 30vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
@@ -249,6 +256,12 @@ body {
     font-family: Poppins;
     font-size: 25spx;
     color: white;
+}
+.built {
+    text-align: center;
+}
+.built-icon {
+    width: 50px;
 }
 .proj-btn1{
     width: 10%;
