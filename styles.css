@@ -1,66 +1,82 @@
-html{
+html {
     font-size: 20px;
     scroll-behavior: smooth;
     transition: .5s;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
 }
+
 body {
     background-attachment: fixed;
-    background-image:  linear-gradient(to bottom right, rgb(20, 6, 70),rgb(47, 11, 88),rgb(14, 27, 82));
+    background-image: linear-gradient(to bottom right, rgb(20, 6, 70), rgb(47, 11, 88), rgb(14, 27, 82));
 }
+
 @keyframes RGB {
-    0%{
+    0% {
         background-position: 0%;
     }
-    100%{
+
+    100% {
         background-position: 400%;
     }
 }
+
 @keyframes rotate {
-    0 {
+    0% {
         transform: rotate(0deg);
     }
+
     50% {
         transform: rotate(20deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
 }
+
 @keyframes rotate2 {
     0% {
         transform: translateY(400px) translateX(-1000px) rotate(270deg);
-        
+
     }
-    25%{
+
+    25% {
         transform: translateY(0px) translateX(-500px) rotate(360deg);
     }
+
     50% {
         transform: translateY(400px) translateX(0px) rotate(450deg);
     }
-    75%{
+
+    75% {
         transform: translatey(800px) translateX(-500px) rotate(540deg);
-        
+
     }
+
     100% {
         transform: translateY(400px) translateX(-1000px) rotate(630deg);
     }
 }
-.navbar{
-    background-image: linear-gradient(to left ,rgb(142, 148, 231),rgb(146, 239, 255),rgb(142, 148, 231));
+
+.navbar {
+    background-image: linear-gradient(to left, rgb(142, 148, 231), rgb(146, 239, 255), rgb(142, 148, 231));
     background-size: 400%;
     animation: RGB 10s linear infinite;
 }
-.dev-icon{
+
+.dev-icon {
     width: 35px;
 }
-.jhom-site{
+
+.jhom-site {
     font-family: Poppins;
     font-size: 24px;
 }
-.nav-button{
+
+.nav-button {
     color: black;
     height: 100px;
     width: 100px;
@@ -73,9 +89,9 @@ body {
 }
 
 
-.nav-button:hover{
+.nav-button:hover {
     border-radius: 50px;
-    color:blue;
+    color: blue;
     height: 100px;
     width: 100px;
     font-size: 15px;
@@ -85,7 +101,8 @@ body {
     background-position: left;
     overflow: auto;
 }
-.nav-button:active{
+
+.nav-button:active {
     border: solid;
     color: red;
     border-color: rgb(238, 130, 130);
@@ -100,7 +117,7 @@ body {
 
 }
 
-.planet1{
+.planet1 {
     width: 27%;
     opacity: .4;
     position: fixed;
@@ -111,7 +128,8 @@ body {
     animation: rotate 20s linear infinite;
     transform-origin: center;
 }
-.planet2{
+
+.planet2 {
     width: 35%;
     opacity: .6;
     position: fixed;
@@ -122,7 +140,8 @@ body {
     animation: rotate 30s linear infinite;
     transform-origin: bottom
 }
-.planet3{
+
+.planet3 {
     width: 35%;
     opacity: .3;
     position: fixed;
@@ -132,178 +151,214 @@ body {
     animation: rotate 30s linear infinite;
     transform-origin: top
 }
-.astronaut{
+
+.astronaut {
     width: 30%;
     position: relative;
     top: 30%;
     left: 150%;
     z-index: -1;
     animation: rotate2 50s linear infinite;
-    
+
 }
 
-.filler1{
+.filler1 {
     width: 30%;
     opacity: 0;
 }
-.filler2{
+
+.filler2 {
     width: 60%;
     opacity: 0;
 }
-    
 
-.job-txt{
-    
-    margin-top: 40vh;
+
+.job-txt {
+
+    margin-top: 40svh;
     color: white;
     font-family: Poppins;
 }
-.intro-txt{
+
+.intro-txt {
     font-size: 40px;
-    color:white;
+    color: white;
     font-weight: 600;
     font-family: Poppins;
 }
-.name-txt{
-    color: #ff75ff ;
+
+.name-txt {
+    color: #ff75ff;
     font-family: Poppins;
 }
-.small-contact-icons{
+
+.small-contact-icons {
     width: 30px;
     margin-top: 0;
     border-radius: 3px;
-    
+
 }
-.github-contact-icon{
+
+.github-contact-icon {
     width: 40px;
 }
-.linkedin-btn{
+
+.linkedin-btn {
     width: 40px;
 }
-.small-contact{
+
+.small-contact {
     transition: .5s;
 }
-.small-contact:hover{
+
+.small-contact:hover {
     background-color: white;
     background-size: 200%;
     border-radius: 20px;
 }
 
-.personal-info{
-    margin-top: 30vh;
+.personal-info {
+    margin-top: 30svh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
+    background-image: linear-gradient(to bottom right, lightblue, violet, lightgreen);
     border-radius: 20px;
 }
+
 .area-label {
     font-family: Poppins;
     font-size: 40px;
     background-color: aqua;
     border-radius: 30px;
 }
-.profile-picture{
+
+.profile-picture {
     width: 80%;
     border-radius: 30px;
 }
-.pic-in-txt{
+
+.pic-in-txt {
     margin-top: 20px;
     margin-right: 20px;
     width: 30%;
     float: left;
     border-radius: 20px;
 }
+
+.about-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .abt-me-msg {
     text-indent: 20px;
     font-family: Poppins;
     color: black;
-    font-weight:600;
+    font-weight: 600;
 }
-.skill-icons{
+
+.skill-icons {
     width: 60%;
     transition: .5s;
 }
-.skill-icons:hover{
+
+.skill-icons:hover {
     width: 70%;
 }
+
 /*.projects-info{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
     border-radius: 20px;
 }*/
-.proj-box{
+.proj-box {
     max-height: 180px;
 }
-.projects{
+
+.projects {
     border: solid violet;
     width: 100%;
     margin-bottom: 200px;
     transition: .5s;
 }
-.projects-frame:hover{
+
+.projects-frame:hover {
     border: solid violet;
     width: 105%;
     height: 500px;
     margin-bottom: 100px;
-    }
-.proj-label{
+}
+
+.proj-label {
     font-family: Poppins;
     font-size: 40px;
     color: #ff75ff;
 }
-.proj-info{
+
+.proj-info {
     font-family: Poppins;
     font-size: 25spx;
     color: white;
 }
+
 .built {
     text-align: center;
 }
+
 .built-icon {
     width: 50px;
 }
-.proj-btn1{
+
+.proj-btn1 {
     width: 10%;
     padding: 2px;
 
 }
-.proj-btn2{
+
+.proj-btn2 {
     width: 12%;
 }
+
 .proj-btn {
     transition: .2s;
 }
-.proj-btn:hover{
+
+.proj-btn:hover {
     background-color: white;
     width: 15%;
     border: solid violet;
     border-radius: 40px;
 }
-.icons{
+
+.icons {
     width: 25%;
 }
-.sec-proj{
+
+.sec-proj {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
+    background-image: linear-gradient(to bottom right, lightblue, violet, lightgreen);
     border-radius: 20px;
 }
-.contact-page{
+
+.contact-page {
     font-family: Poppins;
     font-weight: bold;
     font-size: 20px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
+    background-image: linear-gradient(to bottom right, lightblue, violet, lightgreen);
     border-radius: 50px;
 }
+
 .contact-page2 {
     font-family: Poppins;
     font-weight: bold;
     font-size: 18px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, lightblue,violet,lightgreen);
+    background-image: linear-gradient(to bottom right, lightblue, violet, lightgreen);
     border-radius: 20px;
 }
