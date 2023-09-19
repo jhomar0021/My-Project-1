@@ -175,7 +175,7 @@ body {
 
 .job-txt {
 
-    margin-top: 40svh;
+    margin-top: 30svh;
     color: white;
     font-family: Poppins;
 }
@@ -228,8 +228,12 @@ body {
 .area-label {
     font-family: Poppins;
     font-size: 40px;
-    background-color: aqua;
-    border-radius: 30px;
+}
+
+.area-label2 {
+    font-family: Poppins;
+    font-size: 40px;
+    color: #ff75ff;
 }
 
 .profile-picture {
